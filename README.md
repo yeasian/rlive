@@ -1,81 +1,82 @@
 # RLive
 
-**一个工具，轻松完成多平台直播录制、无水印视频下载和音视频转文字。**
-**简单易用，不需要配置Cookie，不需要配置代理。**
+[简体中文](README.zh-CN.md)
 
+**One tool for multi-platform live stream recording, watermark-free video downloading, and audio/video transcription.**
+**Easy to use, with no cookie or proxy configuration required.**
 
-面向直播运营、内容创作者、课程学习与个人内容归档，让直播和视频素材的采集、整理更简单。
+Built for live stream operators, content creators, learners, and personal media archiving, RLive makes it easier to capture and organize live streams and video content.
 
-[官方网站](https://rlive.vip/) · [使用指南](https://sw0sj62e43t.feishu.cn/wiki/HZpQw8Hb8iQ21Ok0puEcS9MvnSg?from=from_copylink)
-
----
-
-> RLive 目前支持 Windows 10 及以上操作系统。
-
-## 为什么选择 RLive？
-
-- **多平台聚合**：在一个应用中管理不同平台、不同主播的录制任务。
-- **开播自动录制**：添加主播或直播间后持续监控，开播自动开始，减少手动守候。
-- **多任务同时运行**：支持多个主播同时监控与录制，适合批量内容采集。
-- **操作足够简单**：粘贴链接即可创建任务，常用配置已经预设，新手也能快速上手。
-- **本地处理更安心**：音视频转文字在本机完成，素材无需上传到第三方转写平台。
-- **从采集到整理一站完成**：录制、下载、转写集中管理，减少多个工具之间来回切换。
-
-## 核心功能
-
-### 📹 多平台直播录制
-
-粘贴直播间或主播主页链接，即可创建监控任务。主播开播后自动录制，适合课程留存、直播复盘、赛事记录和个人内容归档。
-
-- 7×24 小时开播监控
-- 多平台、多主播任务统一管理
-- 支持原画/高清画质选择
-- 支持自定义监控间隔与视频分段时长
-- 支持 `TS`、`MP4`、`MP3` 输出格式
-- 可在录制完成后自动加入转文字队列
-
-> 推荐使用 `TS` 格式。即使录制过程中遇到网络中断、断电或程序意外关闭，已经写入的内容通常仍可正常保留。
-
-### 🔍 嗅探录制
-
-遇到暂未提供专用解析的平台时，可通过嗅探功能发现直播流并添加录制任务。该功能适合视频号及其他小众直播平台，当前仅支持 Windows。
-
-### ⬇️ 无水印视频下载
-
-复制视频分享链接并创建下载任务，即可将公开视频保存到本地。当前已适配抖音、小红书、Bilibili、快手、TikTok、YouTube 等常见平台。
-
-### 📝 本地音视频转文字
-
-将本地音频或视频拖入 RLive，可排队生成文字稿或字幕文件。转写在本机运行，不限制任务次数，适合访谈整理、课程笔记、直播复盘和字幕制作。
-
-- 支持 `MP4`、`TS`、`FLV`、`WAV`、`MP3` 等常见格式
-- 支持生成纯文本与 `SRT` 字幕
-- 支持多个任务排队处理
-- 首次使用时按引导下载本地语音识别模型
-
-## 已适配的直播平台
-
-RLive 已适配以下平台的直播链接解析或录制能力：
-
-**抖音、快手、小红书、Bilibili、微博、斗鱼、虎牙、百度直播、淘宝直播、猫耳、微赞、小鹅通、Bigo、AvaLive、TikTok、YouTube、Shopee 等。**
-
-## 三步开始使用
-
-1. 下载并安装 RLive，首次启动后阅读并同意使用条款。
-2. 在左侧选择「直播录制」「无水印视频」或「音视频转文字」。
-3. 粘贴链接或选择本地文件，创建任务后即可交给 RLive 自动处理。
-
-## 适合这些场景
-
-- **直播运营**：同时关注多个账号，自动留存直播素材用于复盘。
-- **内容创作者**：下载公开视频、整理口播文稿、快速生成字幕。
-- **课程与访谈整理**：录制直播课程，将音视频转换为可搜索的文字内容。
-- **个人内容归档**：把分散在不同平台的公开内容统一保存和管理。
-
-## 使用声明
-
-RLive 是直播及网络视频内容处理工具，仅供个人、非商业用途的学习与研究。请仅录制、下载或处理已获得合法授权的内容，并遵守所在地法律法规及相关平台规则。因不当使用产生的版权、隐私或其他法律责任由使用者自行承担。
+[Official Website](https://rlive.vip/) · [User Guide](https://sw0sj62e43t.feishu.cn/wiki/HZpQw8Hb8iQ21Ok0puEcS9MvnSg?from=from_copylink)
 
 ---
 
-**让直播内容采集更省心，让视频素材整理更高效。**
+> RLive currently supports Windows 10 and later.
+
+## Why RLive?
+
+- **Multi-platform support**: Manage recording tasks for different platforms and streamers in one application.
+- **Automatic recording**: Monitor a streamer or live room and start recording automatically when the stream goes live.
+- **Concurrent tasks**: Monitor and record multiple streamers at the same time for efficient content collection.
+- **Easy to use**: Paste a link to create a task. Common settings are preconfigured, so you can get started quickly.
+- **Private local processing**: Transcription runs locally, so your media does not need to be uploaded to a third-party transcription service.
+- **All-in-one workflow**: Record, download, and transcribe media without switching between multiple tools.
+
+## Core Features
+
+### 📹 Multi-Platform Live Stream Recording
+
+Paste a live room or streamer profile URL to create a monitoring task. RLive automatically starts recording when the streamer goes live, making it ideal for course archiving, live stream reviews, event recording, and personal media collections.
+
+- 24/7 live status monitoring
+- Unified management for multiple platforms and streamers
+- Original-quality and high-definition options
+- Custom monitoring intervals and recording segment lengths
+- `TS`, `MP4`, and `MP3` output formats
+- Automatic transcription queueing after a recording finishes
+
+> `TS` is the recommended format. If the network disconnects, the computer loses power, or the application closes unexpectedly, content already written to disk can usually still be played.
+
+### 🔍 Stream Sniffing
+
+For platforms without dedicated parsing support, stream sniffing can detect a live stream URL and add it as a recording task. This feature is useful for WeChat Channels and other niche platforms and is currently available on Windows only.
+
+### ⬇️ Watermark-Free Video Downloading
+
+Copy a public video sharing link and create a download task to save the video locally. RLive currently supports popular platforms including Douyin, Xiaohongshu, Bilibili, Kuaishou, TikTok, and YouTube.
+
+### 📝 Local Audio and Video Transcription
+
+Drag local audio or video files into RLive to generate transcripts or subtitles. Tasks can be queued, and all transcription runs locally without usage limits. It is suitable for interview notes, course summaries, live stream reviews, and subtitle creation.
+
+- Supports common formats including `MP4`, `TS`, `FLV`, `WAV`, and `MP3`
+- Generates plain-text transcripts and `SRT` subtitles
+- Queues multiple tasks automatically
+- Guides you through downloading the local speech recognition model on first use
+
+## Supported Live Streaming Platforms
+
+RLive supports live stream URL parsing or recording for the following platforms:
+
+**Douyin, Kuaishou, Xiaohongshu, Bilibili, Weibo, Douyu, Huya, Baidu Live, Taobao Live, Maoer FM, Vzan, Xiaoetong, Bigo, AvaLive, TikTok, YouTube, Shopee, and more.**
+
+## Get Started in Three Steps
+
+1. Download and install RLive, then read and accept the terms of use on first launch.
+2. Select **Live Recording**, **Watermark-Free Video**, or **Audio/Video Transcription** from the sidebar.
+3. Paste a link or select a local file, create the task, and let RLive handle the rest.
+
+## Use Cases
+
+- **Live stream operations**: Monitor multiple accounts and automatically archive streams for review.
+- **Content creation**: Download public videos, organize spoken content, and generate subtitles quickly.
+- **Courses and interviews**: Record live courses and convert audio or video into searchable text.
+- **Personal archiving**: Save and manage public content from different platforms in one place.
+
+## Usage Notice
+
+RLive is a live stream and online video processing tool intended solely for personal, non-commercial learning and research. Only record, download, or process content for which you have legal authorization. You are responsible for complying with applicable laws, regulations, and platform policies, and for any copyright, privacy, or other legal consequences resulting from improper use.
+
+---
+
+**Capture live content with less effort. Organize video assets more efficiently.**
