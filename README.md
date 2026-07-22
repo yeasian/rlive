@@ -1,5 +1,3 @@
-![RLive Logo](src/assets/img.png)
-
 # RLive
 
 **一个工具，轻松完成多平台直播录制、无水印视频下载和音视频转文字。**
